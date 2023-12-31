@@ -12,6 +12,7 @@
         $scope.message = items.length <= 3 ? 'Enjoy!' : 'Too much!';
         if (!items.length) {
           $scope.message = 'Please enter data first';
+          
         }
       };
     }
